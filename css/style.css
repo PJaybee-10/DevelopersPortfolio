@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  padding: 20px;
+}
+.navbar.scroll {
+  background: darkolivegreen;
+  transition: 1s;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 40px;
+  padding-left: 200px;
+  color: #fff !important;
+}
+.navbar .first,
+.second {
+  padding-left: 150px;
+}
+.nav-link {
+  font-weight: bold;
+  color: #fff !important;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.navlink:hover {
+  color: darkturquoise !important;
+}
+
+/*  Header Section Start*/
+
+.header {
+  margin: 0;
+  padding: 0;
+}
+.header .img-parent {
+  position: relative;
+}
+.header img {
+  height: 100%;
+  width: 100%;
+}
+.header .img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: darkslategrey;
+  z-index: 1;
+  opacity: 0.7;
+}
+.header .img-content {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.header .img-content h6 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 40px;
+  opacity: 0.6;
+  font-style: italic;
+}
+.header .img-content h5 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 50px;
+  font-style: italic;
+}
+.header .img-content span {
+  font-weight: bold;
+  color: #fff;
+  font-style: italic;
+  font-size: 40px;
+}
+
+/* Header Section End */
+
+/* About me Section Start */
+.about-me-section-start {
+  margin: 200px auto;
+}
+.about-me-section-start h6 {
+  font-weight: bold;
+  font-size: 25px;
+}
+.about-me-section-start .first {
+  margin-top: 40px;
+}
+.about-me-section-start .col-sm-5,
+.col-sm-6 {
+  margin-top: 40px;
+}
+.about-me-section-start h3 {
+  font-size: 30px;
+}
+.about-me-section-start span {
+  font-weight: bold;
+  opacity: 0.6;
+}
+.about-me-section-start .box {
+  box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5),
+    inset 10px 10px 10px -10px rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+/* About me Section End */
+
+/* Service Section Start */
+.education {
+  margin: 200px auto;
+  background: #dc3445;
+  padding: 200px;
+  color: #fff !important;
+}
+.education .box {
+  box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5),
+    inset 10px 10px -10px rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: 1s;
+}
+.education .box:hover {
+  background: #000;
+}
+.education h3 {
+  font-weight: bold;
+  font-size: 40px;
+}
+/* Service Section End */
+
+/* Skills Section Start */
+.skills {
+  margin: 200px auto;
+}
+.skills label {
+  font-size: 13px;
+}
+
+/* Skills Section End */
+
+/* Tools Section Start */
+.tools {
+  background: #dc3445;
+  color: #fff !important;
+  cursor: pointer;
+  transition: 1s;
+}
+/* Tools Section End */
+
+/* Contact Section Start */
+.contact-form-start {
+  margin-bottom: 200px;
+}
+/* Contact Section End */
+
+/* footer */
+footer {
+  background: #dc3445;
+  padding: 30px;
+}
+footer h5 {
+  font-weight: bold;
+  color: #fff !important;
+}
