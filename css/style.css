@@ -6,7 +6,7 @@
   padding: 20px;
 }
 .navbar.scroll {
-  background: darkolivegreen;
+  background: darkturquoise;
   transition: 1s;
 }
 .navbar-brand {
@@ -115,7 +115,7 @@
 /* Service Section Start */
 .education {
   margin: 200px auto;
-  background: #dc3445;
+  background: darkturquoise;
   padding: 200px;
   color: #fff !important;
 }
@@ -143,12 +143,26 @@
 .skills label {
   font-size: 13px;
 }
+.skills .last-col {
+  margin-top: 90px;
+}
+.skills h5 {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.skills .skills-shadow {
+  box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5),
+    inset 20px 20px 20px -20px rgba(0, 0, 0, 0.9);
+  padding: 30px;
+  cursor: pointer;
+}
 
 /* Skills Section End */
 
 /* Tools Section Start */
 .tools {
-  background: #dc3445;
+  background: darkturquoise;
   color: #fff !important;
   cursor: pointer;
   transition: 1s;
@@ -163,7 +177,7 @@
 
 /* footer */
 footer {
-  background: #dc3445;
+  background: slategray;
   padding: 30px;
 }
 footer h5 {
